@@ -17,7 +17,7 @@ var twit = new twitter({
 db.open(function(err, db){
 	var collection = db.collection('raw_data');
 
-	twit.stream('statuses/filter', {'track': 'happy new year, 2014, new year, newyear'}, function(stream){
+	twit.stream('statuses/filter', {'track': 'happy new year, 2014, newyear'}, function(stream){
 		stream.on('data', function(data){
 			//console.log(ctr++, new Date());
 			collection.insert(data);
