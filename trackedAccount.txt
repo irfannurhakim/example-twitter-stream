@@ -1,0 +1,24 @@
+#List akun yang akan ditrack
+
+- infobdg
+- infojakarta
+- pepatah
+- cumananya
+- tweetramalan
+- nasehatsuper
+- kata2bijak
+- pepatahku
+- faktanyaadalah
+- pemulihanjiwa
+- nasihatsahabat
+- raisa6690
+- nicsap
+- pevpearce
+
+
+
+~ Fokus dulu sama satu hashtags.
+~ kemudian konstruksi jaringan dari user diatas
+  Untuk mengkonstruksi jaringan diperlukan visualisasi graph
+  
+~ Lihatdeh bagaimana informasi mengalir dalam network tersebut

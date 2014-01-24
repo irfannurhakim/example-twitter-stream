@@ -1,0 +1,253 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'update',
+1 verbose cli   '-g',
+1 verbose cli   'n' ]
+2 info using npm@1.3.8
+3 info using node@v0.10.16
+4 verbose cache add [ 'n', '*' ]
+5 verbose cache add name="n" spec="*" args=["n","*"]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: '*',
+6 verbose parsed url   path: '*',
+6 verbose parsed url   href: '*' }
+7 verbose addNamed [ 'n', '*' ]
+8 verbose addNamed [ null, '*' ]
+9 silly lockFile f07fadeb-n n@*
+10 verbose lock n@* /Users/hadipratama/.npm/f07fadeb-n.lock
+11 silly addNameRange { name: 'n', range: '*', hasData: false }
+12 verbose url raw n
+13 verbose url resolving [ 'https://registry.npmjs.org/', './n' ]
+14 verbose url resolved https://registry.npmjs.org/n
+15 info trying registry request attempt 1 at 06:53:30
+16 verbose etag "25ZTZMSWUYGGU8D4BR9D0AS6X"
+17 http GET https://registry.npmjs.org/n
+18 http 200 https://registry.npmjs.org/n
+19 silly registry.get cb [ 200,
+19 silly registry.get   { date: 'Sun, 19 Jan 2014 23:53:32 GMT',
+19 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R15B03)',
+19 silly registry.get     etag: '"9H0DWCS15BJT6CTHRQ20SUSV9"',
+19 silly registry.get     'content-type': 'application/json',
+19 silly registry.get     'content-length': '71931',
+19 silly registry.get     'accept-ranges': 'bytes',
+19 silly registry.get     via: '1.1 varnish',
+19 silly registry.get     age: '1',
+19 silly registry.get     'x-served-by': 'cache-sn88-SIN',
+19 silly registry.get     'x-cache': 'MISS',
+19 silly registry.get     'x-cache-hits': '0',
+19 silly registry.get     'x-timer': 'S1390175611.771458864,VS0,VE891',
+19 silly registry.get     vary: 'Accept',
+19 silly registry.get     'keep-alive': 'timeout=10, max=50',
+19 silly registry.get     connection: 'Keep-Alive' } ]
+20 silly addNameRange number 2 { name: 'n', range: '*', hasData: true }
+21 silly addNameRange versions [ 'n',
+21 silly addNameRange   [ '0.0.1',
+21 silly addNameRange     '0.0.2',
+21 silly addNameRange     '0.0.3',
+21 silly addNameRange     '0.0.4',
+21 silly addNameRange     '0.1.0',
+21 silly addNameRange     '0.1.1',
+21 silly addNameRange     '0.1.2',
+21 silly addNameRange     '0.2.0',
+21 silly addNameRange     '0.2.1',
+21 silly addNameRange     '0.2.2',
+21 silly addNameRange     '0.3.0',
+21 silly addNameRange     '0.4.0',
+21 silly addNameRange     '0.4.1',
+21 silly addNameRange     '0.4.2',
+21 silly addNameRange     '0.5.0',
+21 silly addNameRange     '0.5.1',
+21 silly addNameRange     '0.5.2',
+21 silly addNameRange     '0.5.3',
+21 silly addNameRange     '0.5.4',
+21 silly addNameRange     '0.6.0',
+21 silly addNameRange     '0.6.1',
+21 silly addNameRange     '0.7.0',
+21 silly addNameRange     '0.7.1',
+21 silly addNameRange     '0.7.2',
+21 silly addNameRange     '0.7.3',
+21 silly addNameRange     '0.8.0',
+21 silly addNameRange     '0.8.1',
+21 silly addNameRange     '0.8.2',
+21 silly addNameRange     '0.9.0',
+21 silly addNameRange     '0.9.1',
+21 silly addNameRange     '0.9.2',
+21 silly addNameRange     '0.9.3',
+21 silly addNameRange     '1.0.0',
+21 silly addNameRange     '1.1.0' ] ]
+22 verbose addNamed [ 'n', '1.1.0' ]
+23 verbose addNamed [ '1.1.0', '1.1.0' ]
+24 silly lockFile 9f2a0569-n-1-1-0 n@1.1.0
+25 verbose lock n@1.1.0 /Users/hadipratama/.npm/9f2a0569-n-1-1-0.lock
+26 silly lockFile 9f2a0569-n-1-1-0 n@1.1.0
+27 silly lockFile 9f2a0569-n-1-1-0 n@1.1.0
+28 silly lockFile f07fadeb-n n@*
+29 silly lockFile f07fadeb-n n@*
+30 info outdated updating [ [ '/usr/local/lib', 'n', '1.1.0', '1.1.0', '*' ] ]
+31 verbose install where,what [ '/usr/local/lib', [ 'n@1.1.0' ] ]
+32 verbose cache add [ 'n@1.1.0', null ]
+33 verbose cache add name=undefined spec="n@1.1.0" args=["n@1.1.0",null]
+34 verbose parsed url { protocol: null,
+34 verbose parsed url   slashes: null,
+34 verbose parsed url   auth: null,
+34 verbose parsed url   host: null,
+34 verbose parsed url   port: null,
+34 verbose parsed url   hostname: null,
+34 verbose parsed url   hash: null,
+34 verbose parsed url   search: null,
+34 verbose parsed url   query: null,
+34 verbose parsed url   pathname: 'n@1.1.0',
+34 verbose parsed url   path: 'n@1.1.0',
+34 verbose parsed url   href: 'n@1.1.0' }
+35 verbose cache add name="n" spec="1.1.0" args=["n","1.1.0"]
+36 verbose parsed url { protocol: null,
+36 verbose parsed url   slashes: null,
+36 verbose parsed url   auth: null,
+36 verbose parsed url   host: null,
+36 verbose parsed url   port: null,
+36 verbose parsed url   hostname: null,
+36 verbose parsed url   hash: null,
+36 verbose parsed url   search: null,
+36 verbose parsed url   query: null,
+36 verbose parsed url   pathname: '1.1.0',
+36 verbose parsed url   path: '1.1.0',
+36 verbose parsed url   href: '1.1.0' }
+37 verbose addNamed [ 'n', '1.1.0' ]
+38 verbose addNamed [ '1.1.0', '1.1.0' ]
+39 silly lockFile 9f2a0569-n-1-1-0 n@1.1.0
+40 verbose lock n@1.1.0 /Users/hadipratama/.npm/9f2a0569-n-1-1-0.lock
+41 verbose url raw n/1.1.0
+42 verbose url resolving [ 'https://registry.npmjs.org/', './n/1.1.0' ]
+43 verbose url resolved https://registry.npmjs.org/n/1.1.0
+44 info trying registry request attempt 1 at 06:53:38
+45 http GET https://registry.npmjs.org/n/1.1.0
+46 http 200 https://registry.npmjs.org/n/1.1.0
+47 silly registry.get cb [ 200,
+47 silly registry.get   { date: 'Sun, 19 Jan 2014 23:53:39 GMT',
+47 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R15B03)',
+47 silly registry.get     etag: '"9H0DWCS15BJT6CTHRQ20SUSV9"',
+47 silly registry.get     'content-type': 'application/json',
+47 silly registry.get     'content-length': '4812',
+47 silly registry.get     'accept-ranges': 'bytes',
+47 silly registry.get     via: '1.1 varnish',
+47 silly registry.get     age: '0',
+47 silly registry.get     'x-served-by': 'cache-sn87-SIN',
+47 silly registry.get     'x-cache': 'MISS',
+47 silly registry.get     'x-cache-hits': '0',
+47 silly registry.get     'x-timer': 'S1390175618.827975512,VS0,VE441',
+47 silly registry.get     vary: 'Accept',
+47 silly registry.get     'keep-alive': 'timeout=10, max=50',
+47 silly registry.get     connection: 'Keep-Alive' } ]
+48 silly lockFile 3f90a660-registry-npmjs-org-n-n-1-1-0-tgz https://registry.npmjs.org/n/-/n-1.1.0.tgz
+49 verbose lock https://registry.npmjs.org/n/-/n-1.1.0.tgz /Users/hadipratama/.npm/3f90a660-registry-npmjs-org-n-n-1-1-0-tgz.lock
+50 verbose addRemoteTarball [ 'https://registry.npmjs.org/n/-/n-1.1.0.tgz',
+50 verbose addRemoteTarball   '0d49b9afba1577e237014b24a2dffc4e5d7f3e67' ]
+51 info retry fetch attempt 1 at 06:53:39
+52 verbose fetch to= /var/folders/bf/dyc60hls2gxd1cwlz0pptrz80000gn/T/npm-5089-cITNdIm9/1390175619318-0.6340149983298033/tmp.tgz
+53 http GET https://registry.npmjs.org/n/-/n-1.1.0.tgz
+54 http 200 https://registry.npmjs.org/n/-/n-1.1.0.tgz
+55 verbose tar unpack /var/folders/bf/dyc60hls2gxd1cwlz0pptrz80000gn/T/npm-5089-cITNdIm9/1390175619318-0.6340149983298033/tmp.tgz
+56 silly lockFile b5fa50f1-19318-0-6340149983298033-package tar:///var/folders/bf/dyc60hls2gxd1cwlz0pptrz80000gn/T/npm-5089-cITNdIm9/1390175619318-0.6340149983298033/package
+57 verbose lock tar:///var/folders/bf/dyc60hls2gxd1cwlz0pptrz80000gn/T/npm-5089-cITNdIm9/1390175619318-0.6340149983298033/package /Users/hadipratama/.npm/b5fa50f1-19318-0-6340149983298033-package.lock
+58 silly lockFile 124b1758-19318-0-6340149983298033-tmp-tgz tar:///var/folders/bf/dyc60hls2gxd1cwlz0pptrz80000gn/T/npm-5089-cITNdIm9/1390175619318-0.6340149983298033/tmp.tgz
+59 verbose lock tar:///var/folders/bf/dyc60hls2gxd1cwlz0pptrz80000gn/T/npm-5089-cITNdIm9/1390175619318-0.6340149983298033/tmp.tgz /Users/hadipratama/.npm/124b1758-19318-0-6340149983298033-tmp-tgz.lock
+60 silly gunzTarPerm modes [ '755', '644' ]
+61 silly gunzTarPerm extractEntry package.json
+62 silly gunzTarPerm extractEntry bin/n
+63 silly gunzTarPerm extractEntry History.md
+64 silly gunzTarPerm extractEntry Makefile
+65 silly gunzTarPerm extractEntry Readme.md
+66 silly lockFile b5fa50f1-19318-0-6340149983298033-package tar:///var/folders/bf/dyc60hls2gxd1cwlz0pptrz80000gn/T/npm-5089-cITNdIm9/1390175619318-0.6340149983298033/package
+67 silly lockFile b5fa50f1-19318-0-6340149983298033-package tar:///var/folders/bf/dyc60hls2gxd1cwlz0pptrz80000gn/T/npm-5089-cITNdIm9/1390175619318-0.6340149983298033/package
+68 silly lockFile 124b1758-19318-0-6340149983298033-tmp-tgz tar:///var/folders/bf/dyc60hls2gxd1cwlz0pptrz80000gn/T/npm-5089-cITNdIm9/1390175619318-0.6340149983298033/tmp.tgz
+69 silly lockFile 124b1758-19318-0-6340149983298033-tmp-tgz tar:///var/folders/bf/dyc60hls2gxd1cwlz0pptrz80000gn/T/npm-5089-cITNdIm9/1390175619318-0.6340149983298033/tmp.tgz
+70 verbose tar pack [ '/Users/hadipratama/.npm/n/1.1.0/package.tgz',
+70 verbose tar pack   '/var/folders/bf/dyc60hls2gxd1cwlz0pptrz80000gn/T/npm-5089-cITNdIm9/1390175619318-0.6340149983298033/package' ]
+71 verbose tarball /Users/hadipratama/.npm/n/1.1.0/package.tgz
+72 verbose folder /var/folders/bf/dyc60hls2gxd1cwlz0pptrz80000gn/T/npm-5089-cITNdIm9/1390175619318-0.6340149983298033/package
+73 silly lockFile b5fa50f1-19318-0-6340149983298033-package tar:///var/folders/bf/dyc60hls2gxd1cwlz0pptrz80000gn/T/npm-5089-cITNdIm9/1390175619318-0.6340149983298033/package
+74 verbose lock tar:///var/folders/bf/dyc60hls2gxd1cwlz0pptrz80000gn/T/npm-5089-cITNdIm9/1390175619318-0.6340149983298033/package /Users/hadipratama/.npm/b5fa50f1-19318-0-6340149983298033-package.lock
+75 silly lockFile 19de3ae6-ipratama-npm-n-1-1-0-package-tgz tar:///Users/hadipratama/.npm/n/1.1.0/package.tgz
+76 verbose lock tar:///Users/hadipratama/.npm/n/1.1.0/package.tgz /Users/hadipratama/.npm/19de3ae6-ipratama-npm-n-1-1-0-package-tgz.lock
+77 silly lockFile b5fa50f1-19318-0-6340149983298033-package tar:///var/folders/bf/dyc60hls2gxd1cwlz0pptrz80000gn/T/npm-5089-cITNdIm9/1390175619318-0.6340149983298033/package
+78 silly lockFile b5fa50f1-19318-0-6340149983298033-package tar:///var/folders/bf/dyc60hls2gxd1cwlz0pptrz80000gn/T/npm-5089-cITNdIm9/1390175619318-0.6340149983298033/package
+79 silly lockFile 19de3ae6-ipratama-npm-n-1-1-0-package-tgz tar:///Users/hadipratama/.npm/n/1.1.0/package.tgz
+80 silly lockFile 19de3ae6-ipratama-npm-n-1-1-0-package-tgz tar:///Users/hadipratama/.npm/n/1.1.0/package.tgz
+81 silly lockFile e55bd1d9--hadipratama-npm-n-1-1-0-package /Users/hadipratama/.npm/n/1.1.0/package
+82 verbose lock /Users/hadipratama/.npm/n/1.1.0/package /Users/hadipratama/.npm/e55bd1d9--hadipratama-npm-n-1-1-0-package.lock
+83 silly lockFile e55bd1d9--hadipratama-npm-n-1-1-0-package /Users/hadipratama/.npm/n/1.1.0/package
+84 silly lockFile e55bd1d9--hadipratama-npm-n-1-1-0-package /Users/hadipratama/.npm/n/1.1.0/package
+85 verbose tar unpack /Users/hadipratama/.npm/n/1.1.0/package.tgz
+86 silly lockFile 69d25cae--hadipratama-npm-n-1-1-0-package tar:///Users/hadipratama/.npm/n/1.1.0/package
+87 verbose lock tar:///Users/hadipratama/.npm/n/1.1.0/package /Users/hadipratama/.npm/69d25cae--hadipratama-npm-n-1-1-0-package.lock
+88 silly lockFile 19de3ae6-ipratama-npm-n-1-1-0-package-tgz tar:///Users/hadipratama/.npm/n/1.1.0/package.tgz
+89 verbose lock tar:///Users/hadipratama/.npm/n/1.1.0/package.tgz /Users/hadipratama/.npm/19de3ae6-ipratama-npm-n-1-1-0-package-tgz.lock
+90 silly gunzTarPerm modes [ '755', '644' ]
+91 silly gunzTarPerm extractEntry package.json
+92 silly gunzTarPerm extractEntry History.md
+93 silly gunzTarPerm extractEntry Makefile
+94 silly gunzTarPerm extractEntry Readme.md
+95 silly gunzTarPerm extractEntry bin/n
+96 silly lockFile 69d25cae--hadipratama-npm-n-1-1-0-package tar:///Users/hadipratama/.npm/n/1.1.0/package
+97 silly lockFile 69d25cae--hadipratama-npm-n-1-1-0-package tar:///Users/hadipratama/.npm/n/1.1.0/package
+98 silly lockFile 19de3ae6-ipratama-npm-n-1-1-0-package-tgz tar:///Users/hadipratama/.npm/n/1.1.0/package.tgz
+99 silly lockFile 19de3ae6-ipratama-npm-n-1-1-0-package-tgz tar:///Users/hadipratama/.npm/n/1.1.0/package.tgz
+100 verbose chmod /Users/hadipratama/.npm/n/1.1.0/package.tgz 644
+101 verbose chown /Users/hadipratama/.npm/n/1.1.0/package.tgz [ 501, 20 ]
+102 silly lockFile 3f90a660-registry-npmjs-org-n-n-1-1-0-tgz https://registry.npmjs.org/n/-/n-1.1.0.tgz
+103 silly lockFile 3f90a660-registry-npmjs-org-n-n-1-1-0-tgz https://registry.npmjs.org/n/-/n-1.1.0.tgz
+104 silly lockFile 9f2a0569-n-1-1-0 n@1.1.0
+105 silly lockFile 9f2a0569-n-1-1-0 n@1.1.0
+106 silly resolved [ { name: 'n',
+106 silly resolved     description: 'node version manager',
+106 silly resolved     version: '1.1.0',
+106 silly resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+106 silly resolved     homepage: 'https://github.com/visionmedia/n',
+106 silly resolved     bugs: { url: 'https://github.com/visionmedia/n/issues' },
+106 silly resolved     keywords: [ 'node', 'binary', 'version', 'env' ],
+106 silly resolved     bin: { n: './bin/n' },
+106 silly resolved     repository: { type: 'git', url: 'git://github.com/visionmedia/n.git' },
+106 silly resolved     engines: { node: '*' },
+106 silly resolved     license: 'MIT',
+106 silly resolved     readme: '# n\n\nSimple flavour of node binary management, no subshells, no profile setup, no convoluted api, just _simple_.\n\n## Installation\n\n    $ npm install -g n\n\nor\n\n    $ make install\n\n### Installing Binaries\n\nInstall a few nodes:\n\n    $ n 0.8.14\n    $ n 0.8.17\n    $ n 0.9.6\n\nType `n` to prompt selection of an installed node. Use the up /\ndown arrow to navigate, and press enter or the right arrow to\nselect, or ^C to cancel:\n\n    $ n\n\n      0.8.14\n    ο 0.8.17\n      0.9.6\n\nPass some config flags to _./configure_:\n\n    $ n 0.2.6 --debug\n\nList installed binaries, config flags are shown:\n\n      0.2.3\n    ο 0.2.6 --debug\n      0.3.4\n      0.3.5\n\nUse or install the latest official release:\n\n    $ n latest\n\nUse or install the stable official release:\n\n    $ n stable\n\nSwitch to the previous version you were using:\n\n    $ n prev\n\n### Removing Binaries\n\nRemove some versions:\n\n    $ n rm 0.2.4 v0.3.0\n\nInstead of using `rm` we can simply use `-`:\n\n    $ n - 0.2.4\n\n### Binary Usage\n\nWhen running multiple versions of node, we can target\nthem directly by asking `n` for the binary path:\n\n    $ n bin 0.3.3\n    /usr/local/n/versions/0.3.3/bin/node\n\nOr by using a specific version through `n`\'s `use` sub-command:\n\n    $ n use 0.3.3 some.js\n\nwith flags:\n\n    $ n as 0.3.3 --debug some.js\n\n## Usage\n\n Output from `n --help`:\n\n    Usage: n [options] [COMMAND] [config]\n\n    Commands:\n\n      n                            Output versions installed\n      n latest [config ...]        Install or activate the latest node release\n      n stable [config ...]        Install or activate the latest stable node release\n      n <version> [config ...]     Install and/or use node <version>\n      n use <version> [args ...]   Execute node <version> with [args ...]\n      n bin <version>              Output bin path for <version>\n      n rm <version ...>           Remove the given version(s)\n      n --latest                   Output the latest node version available\n      n --stable                   Output the latest stable node version available\n      n ls                         Output the versions of node available\n\n    Options:\n\n      -V, --version   Output current version of n\n      -h, --help      Display help information\n\n    Aliases:\n\n      which   bin\n      use     as\n      list    ls\n      -       rm\n\n## Details\n\n `n` by default installs node to _/usr/local/n/versions_, from\n which it can see what you have currently installed, and activate previously installed versions of node when `n <version>` is invoked again.\n\n Activated nodes are then installed to the prefix _/usr/local_, which of course may be altered via the __N_PREFIX__ environment variable.\n\n To alter where `n` operates simply export __N_PREFIX__ to whatever you prefer.\n\n## License\n\n(The MIT License)\n\nCopyright (c) 2010 TJ Holowaychuk &lt;tj@vision-media.ca&gt;\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\'Software\'), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \'AS IS\', WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\nCLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\nTORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n',
+106 silly resolved     readmeFilename: 'Readme.md',
+106 silly resolved     _id: 'n@1.1.0',
+106 silly resolved     _from: 'n@1.1.0',
+106 silly resolved     dist: { shasum: '87fcf5a2ab667936958a6a6290554a6ab3224c53' },
+106 silly resolved     _resolved: 'https://registry.npmjs.org/n/-/n-1.1.0.tgz' } ]
+107 info install n@1.1.0 into /usr/local/lib
+108 info installOne n@1.1.0
+109 info /usr/local/lib/node_modules/n unbuild
+110 info preuninstall n@1.1.0
+111 info uninstall n@1.1.0
+112 verbose true,/usr/local/lib/node_modules,/usr/local/lib/node_modules unbuild n@1.1.0
+113 verbose /usr/local/bin,[object Object] binRoot
+114 info /usr/local/lib/node_modules/n unbuild
+115 info preuninstall n@1.1.0
+116 info uninstall n@1.1.0
+117 verbose true,/usr/local/lib/node_modules,/usr/local/lib/node_modules unbuild n@1.1.0
+118 verbose /usr/local/bin,[object Object] binRoot
+119 error error rolling back Error: EACCES, unlink '/usr/local/bin/n'
+119 error error rolling back  n@1.1.0 { [Error: EACCES, unlink '/usr/local/bin/n'] errno: 3, code: 'EACCES', path: '/usr/local/bin/n' }
+120 error Error: EACCES, unlink '/usr/local/bin/n'
+120 error  { [Error: EACCES, unlink '/usr/local/bin/n'] errno: 3, code: 'EACCES', path: '/usr/local/bin/n' }
+121 error Please try running this command again as root/Administrator.
+122 error System Darwin 13.0.0
+123 error command "/usr/local/bin/node" "/usr/local/bin/npm" "update" "-g" "n"
+124 error cwd /Users/hadipratama/Documents/project/newyear-twitter-stream
+125 error node -v v0.10.16
+126 error npm -v 1.3.8
+127 error path /usr/local/bin/n
+128 error code EACCES
+129 error errno 3
+130 error stack Error: EACCES, unlink '/usr/local/bin/n'
+131 verbose exit [ 3, true ]
